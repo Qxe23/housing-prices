@@ -57,7 +57,7 @@ def predict():
 
     # Retourne le résultat
     return jsonify({
-        "prédiction": round(prediction[0], 2)
+        "prediction": round(prediction[0], 2)
     })
 
 # -----------------------
